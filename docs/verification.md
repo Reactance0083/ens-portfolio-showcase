@@ -1,41 +1,15 @@
-# Verification scope and current status
+# Verifying digital claims: educational overview
 
-[Back to project](../README.md)
+[Back to the ENS portfolio](../README.md)
 
-## Evidence categories
+A human-readable name can help people locate information, but does not prove that the information is correct. Depending on the use case, verification may require:
 
-| Category | Evidence represented | What it establishes |
-| --- | --- | --- |
-| Published website | Public pages and educational resources, with dated release records. | The described content is available on the web. |
-| Local integration | Simulated payments, local-chain transactions, persisted orders, and restart tests. | Specified behavior under the tested conditions. |
-| Read-only chain checks | Recorded registry/ownership and coverage observations. | Observed on-chain state at a particular time. |
-| Customer acceptance | A real hosted order, payment, correct delivery, receipt, and lifecycle review. | Still a separate release requirement. |
+- Checking the issuer or organization's identity.
+- Validating cryptographic signatures and credential status.
+- Establishing legal or institutional authority.
+- Checking that permissions and delegated authority remain valid.
+- Comparing asset identifiers with authoritative records.
 
-## Failure cases covered by the prototype work
+These are general principles for understanding digital identity and verifiable records. They are not claims that the ENS portfolio operates an identity verification, compliance, payments, or asset registry service.
 
-- Payment amount, currency, recipient, or order does not match.
-- A signature is invalid, expired, or bound to the wrong domain or terms.
-- A payment or fulfillment authorization is replayed.
-- A name is reserved, already active, or outside delegated scope.
-- A process restarts after payment or loses a transaction response.
-- The parent registration does not cover the proposed annual lease.
-- Root management is revoked or a lease expires.
-- A later registration could otherwise expose a prior customer's records.
-
-These describe historical implementation and test coverage in the working project. This documentation refresh does not claim a new full test run or an independent security audit.
-
-## Current release position
-
-As of November 10, 2026:
-
-- Nine portfolio websites and the published educational resources are public.
-- Managed naming and commerce components exist in source and test environments.
-- Paid leasing setup and rollout remain paused.
-- Customer adoption, revenue, external editorial acceptance, and independent contract review are not inferred from publication or testing.
-- Private visual lessons and later resource drafts are not presented here as published products.
-
-## Release discipline
-
-A site update must preserve the existing files and backend components outside its intended scope. The project records file/function digests, route checks, security configuration, and publication outcomes. A missing exact deployment dependency can stop a release while leaving the current site available.
-
-That operating distinction is part of the project: prepared source, successful tests, deployed code, and accepted customer behavior are different milestones.
+Learn more through the [W3C Verifiable Credentials standard](https://www.w3.org/TR/vc-data-model-2.0/) and the [ENS documentation](https://docs.ens.domains/).
