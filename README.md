@@ -1,60 +1,29 @@
-# ENS & Digital Identity Portfolio
+# ENS Namespace Portfolio
 
-**C. Wade Allen | Blockchain, workflow design, and AI-assisted implementation**
+An independent collection of Ethereum Name Service (ENS) names exploring naming, discovery, and digital identity across emerging technology sectors.
 
-A public case study of an independently held ENS namespace portfolio, nine published websites, educational resources, and prototypes for managed subname delivery.
+## Names and educational websites
 
-**[Explore the live portfolio](https://productpassport-eth.netlify.app/portfolio/)** · **[Architecture](docs/architecture.md)** · **[Verification and status](docs/verification.md)** · **[Professional profile](https://github.com/Reactance0083)**
-
-## The problem
-
-A product record, asset history, organization, or automated agent may need a stable way to be identified across systems. A name alone does not establish accuracy, authority, access rights, or ownership of the underlying asset.
-
-This project explores where ENS can provide an optional naming and discovery layer, how to explain its limits, and what operational checks would be needed before offering managed naming services.
-
-## My role
-
-I own the portfolio and direct its product positioning, business requirements, workflow design, research priorities, and release decisions. Development and research use AI-assisted tools. I review user journeys and evidence, including failure states, ownership boundaries, and what is actually published.
-
-## What is available
-
-| Workstream | Implemented work | Status |
+| ENS name | Educational focus | Website |
 | --- | --- | --- |
-| Public portfolio | Nine responsive sites, shared portfolio/inquiry routes, metadata, sitemaps, and educational crosslinks. | Published. |
-| Education | Five research articles and four practical worksheets covering product records, identity, authority, and agent controls. | Published resources; later drafts are separate. |
-| Managed-subname workflow | Checkout/account interfaces, order persistence, contract candidates, signature-bound delivery, receipt/recovery and lifecycle tests. | Prototype and gated implementation; public purchasing remains paused. |
-| Release operations | Deployment manifests, checks for preserved files/functions, verification files, security headers, and scheduled functions. | Implemented operating process; release-specific evidence recorded privately. |
+| productpassport.eth | Digital product passports and product identity | [Explore](https://productpassport-eth.netlify.app/) |
+| dppregistry.eth | Digital Product Passport registry concepts | [Explore](https://dppregistry-eth.netlify.app/) |
+| assetrecords.eth | Verifiable asset records | [Explore](https://assetrecords-eth.netlify.app/) |
+| assetpassport.eth | Asset provenance and lifecycle records | [Explore](https://assetpassport-eth.netlify.app/) |
+| agentpermissions.eth | AI-agent authorization and delegated permissions | [Explore](https://agentpermissions-eth.netlify.app/) |
+| intentservices.eth | Agent intent and machine commerce | [Explore](https://intentservices-eth.netlify.app/) |
+| identitymesh.eth | Organizational and agent identity | [Explore](https://identitymesh-eth.netlify.app/) |
+| recognizedentities.eth | Entity recognition and verifiable credentials | [Explore](https://recognizedentities-eth.netlify.app/) |
+| trustfabric.eth | Digital trust and verifiable interactions | [Explore](https://trustfabric-eth.netlify.app/) |
 
-## Published sites
+Additional portfolio names include propertyrecords.eth, schoolidentity.eth, orasolutions.eth, dallasisd.eth, houstonisd.eth, cfisd.eth, fwisd.eth, aallen.eth, oliviaallen.eth, wadeallen.eth, aaronallen.eth, claytonhomes.eth, mclaneco.eth, and ridgid.eth.
 
-| Website | Focus |
-| --- | --- |
-| [Product Passport](https://productpassport-eth.netlify.app/) | Product identity and digital product passport discovery. |
-| [DPP Registry](https://dppregistry-eth.netlify.app/) | Registry concepts and integration questions. |
-| [Asset Records](https://assetrecords-eth.netlify.app/) | Authoritative records and cross-system references. |
-| [Asset Passport](https://assetpassport-eth.netlify.app/) | Asset identity, provenance, and lifecycle evidence. |
-| [Agent Permissions](https://agentpermissions-eth.netlify.app/) | Delegation, spending scope, expiry, and revocation. |
-| [Intent Services](https://intentservices-eth.netlify.app/) | Agent intent, authorization, and machine commerce. |
-| [Identity Mesh](https://identitymesh-eth.netlify.app/) | Agent identity and organizational credentials. |
-| [Recognized Entities](https://recognizedentities-eth.netlify.app/) | Entity recognition and service discovery. |
-| [Trust Fabric](https://trustfabric-eth.netlify.app/) | Digital trust and accountable transactions. |
+## Educational resources
 
-Start with the [resource library](https://productpassport-eth.netlify.app/resources/), the [DPP registry explainer](https://dppregistry-eth.netlify.app/research/eu-dpp-registry-explained/), or the [asset-records article](https://assetrecords-eth.netlify.app/research/tokenized-assets-and-authoritative-records/).
+- [Research and resources](https://productpassport-eth.netlify.app/resources/)
+- [Digital Product Passport Registry explainer](https://dppregistry-eth.netlify.app/research/eu-dpp-registry-explained/)
+- [Asset records and tokenization](https://assetrecords-eth.netlify.app/research/tokenized-assets-and-authoritative-records/)
 
-## Technical scope
+## Important distinction
 
-- HTML/CSS/JavaScript sites and Node.js services on Netlify.
-- PostgreSQL-backed order and event records.
-- Solidity contract candidates and ethers.js interactions.
-- Local EVM simulations, signature/permission checks, replay protection, expiry, and restart recovery.
-- Structured technical writing, responsive interfaces, release documentation, and scoped regression checks.
-
-The published websites use conventional HTTPS hosting. Direct decentralized .eth website hosting is a separate capability. These are independent projects, with no claim of official ENS, government, or standards-body status.
-
-## What the project demonstrates
-
-Turning a broad blockchain concept into a concrete customer journey requires more than a landing page: naming rights, control, identity proof, payment evidence, delivery, renewals, recovery, and support all need explicit rules. This portfolio makes those dependencies visible and distinguishes a test result from a production launch.
-
-**Current status, November 10, 2026:** public education continues; paid leasing rollout is on hold. Local tests and published pages do not establish an audited production registrar, successful customer sale, or customer adoption.
-
-This repository contains a public project summary. The private working repository and its commercial records remain private.
+These are independently held prospective namespaces. They are not official government, regulatory, standards-body, or industry registries. ENS is not required for Digital Product Passport compliance or for the identity and payments technologies discussed in the educational material. Website publication does not itself establish an operating registry, identity verification service, or commercial offering.
