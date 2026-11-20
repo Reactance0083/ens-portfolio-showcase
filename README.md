@@ -1,6 +1,8 @@
-# ENS Namespace Portfolio
+# Strategic ENS Portfolio
 
 An independent collection of Ethereum Name Service (ENS) names exploring naming, discovery, and digital identity across emerging technology sectors.
+
+[Explore all nine projects on the Strategic ENS website](https://reactance0083.github.io/strategic-ens/).
 
 ## Names and educational websites
 
